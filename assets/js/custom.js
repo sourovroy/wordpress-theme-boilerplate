@@ -1,7 +1,7 @@
-(function($){
-    $(document).ready(function(){
-        console.log('Dom loaded');
-    });
-
-
-})(jQuery);
+// (function($){
+//     $(document).ready(function(){
+//         console.log('Dom loaded');
+//     });
+//
+//
+// })(jQuery);
