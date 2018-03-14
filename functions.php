@@ -20,6 +20,12 @@ require get_parent_theme_file_path('/inc/hook-widgets-init.php');
  */
 require get_parent_theme_file_path('/inc/template-functions.php');
 
+
+/**
+ * Enqueue scripts and style
+ */
+require get_parent_theme_file_path('/inc/hook-enqueue-scripts.php');
+
 /**
  * Customizer additions.
  */
