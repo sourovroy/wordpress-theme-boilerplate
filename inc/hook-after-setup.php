@@ -13,8 +13,8 @@ add_action( 'after_setup_theme', function(){
 
 	// This theme uses wp_nav_menu() in two locations.
 	register_nav_menus(array(
-		'top'    => 'Top Menu',
-		'social' => 'Social Links Menu',
+		'top-menu'    => 'Top Menu',
+		'social-menu' => 'Social Links Menu',
 	));
 
 	/*

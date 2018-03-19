@@ -14,5 +14,7 @@ add_action('wp_enqueue_scripts', function(){
 		wp_enqueue_script( 'comment-reply' );
 	}
 
-	wp_enqueue_script('theme-scripts', get_theme_file_uri('assets/public/scripts.js'), array('jquery'), null, true);
+	wp_deregister_script('jquery');
+	wp_dequeue_script('jquery');
+	wp_enqueue_script('theme-scripts', get_theme_file_uri('assets/public/scripts.js'), [], null, true);
 });

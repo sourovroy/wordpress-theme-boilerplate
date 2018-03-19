@@ -7,6 +7,6 @@
 /**
  * Checks to see if we're on the homepage or not.
  */
-function twentyseventeen_is_frontpage() {
+function is_site_frontpage() {
 	return ( is_front_page() && ! is_home() );
 }

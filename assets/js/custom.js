@@ -1,7 +1,7 @@
-(function($){
-    $(document).ready(function(){
-        console.log('Dom loaded');
-    });
+require('./bootstrap');
 
+(function($){
+
+	// Write custom JavaScript here
 
 })(jQuery);

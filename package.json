@@ -14,6 +14,10 @@
   "license": "ISC",
   "devDependencies": {
     "cross-env": "^5.1.4",
-    "laravel-mix": "^2.0.0"
+    "laravel-mix": "^2.0.0",
+    "vue": "^2.5.7",
+    "bootstrap": "^4.0.0",
+    "popper.js": "^1.12",
+    "jquery": "^3.2"
   }
 }
