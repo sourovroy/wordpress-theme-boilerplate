@@ -32,8 +32,8 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-family-sans-serif: "Lato", sans-serif;
+  --font-family-monospace: "Lato", sans-serif;
 }
 
 *,
@@ -62,11 +62,11 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Lato", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #757575;
   text-align: left;
   background-color: #fff;
 }
@@ -84,7 +84,7 @@ hr {
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
 }
 
 p {
@@ -364,11 +364,11 @@ template {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  margin-bottom: 0.5rem;
-  font-family: inherit;
-  font-weight: 500;
+  margin-bottom: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
   line-height: 1.2;
-  color: inherit;
+  color: #535353;
 }
 
 h1, .h1 {
@@ -513,7 +513,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: "Lato", sans-serif;
 }
 
 code {
@@ -1866,7 +1866,7 @@ pre code {
 }
 
 .table .thead-light th {
-  color: #495057;
+  color: #535353;
   background-color: #e9ecef;
   border-color: #dee2e6;
 }
@@ -1964,10 +1964,10 @@ pre code {
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   line-height: 1.5;
-  color: #495057;
+  color: #535353;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid #ced4da;
+  border: 1px solid #757575;
   border-radius: 0.25rem;
   -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
@@ -1981,7 +1981,7 @@ pre code {
 }
 
 .form-control:focus {
-  color: #495057;
+  color: #535353;
   background-color: #fff;
   border-color: #80bdff;
   outline: 0;
@@ -2019,7 +2019,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 select.form-control:focus::-ms-value {
-  color: #495057;
+  color: #535353;
   background-color: #fff;
 }
 
@@ -3210,7 +3210,7 @@ tbody.collapse.show {
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
-  color: #212529;
+  color: #757575;
   text-align: left;
   list-style: none;
   background-color: #fff;
@@ -3615,11 +3615,11 @@ tbody.collapse.show {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #495057;
+  color: #535353;
   text-align: center;
   white-space: nowrap;
   background-color: #e9ecef;
-  border: 1px solid #ced4da;
+  border: 1px solid #757575;
   border-radius: 0.25rem;
 }
 
@@ -3774,11 +3774,11 @@ tbody.collapse.show {
   height: calc(2.25rem + 2px);
   padding: 0.375rem 1.75rem 0.375rem 0.75rem;
   line-height: 1.5;
-  color: #495057;
+  color: #535353;
   vertical-align: middle;
   background: #fff url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat right 0.75rem center;
   background-size: 8px 10px;
-  border: 1px solid #ced4da;
+  border: 1px solid #757575;
   border-radius: 0.25rem;
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -3793,7 +3793,7 @@ tbody.collapse.show {
 }
 
 .custom-select:focus::-ms-value {
-  color: #495057;
+  color: #535353;
   background-color: #fff;
 }
 
@@ -3866,9 +3866,9 @@ tbody.collapse.show {
   height: calc(2.25rem + 2px);
   padding: 0.375rem 0.75rem;
   line-height: 1.5;
-  color: #495057;
+  color: #535353;
   background-color: #fff;
-  border: 1px solid #ced4da;
+  border: 1px solid #757575;
   border-radius: 0.25rem;
 }
 
@@ -3882,10 +3882,10 @@ tbody.collapse.show {
   height: calc(calc(2.25rem + 2px) - 1px * 2);
   padding: 0.375rem 0.75rem;
   line-height: 1.5;
-  color: #495057;
+  color: #535353;
   content: "Browse";
   background-color: #e9ecef;
-  border-left: 1px solid #ced4da;
+  border-left: 1px solid #757575;
   border-radius: 0 0.25rem 0.25rem 0;
 }
 
@@ -3939,7 +3939,7 @@ tbody.collapse.show {
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #495057;
+  color: #535353;
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
 }
@@ -5224,18 +5224,18 @@ tbody.collapse.show {
 
 .list-group-item-action {
   width: 100%;
-  color: #495057;
+  color: #535353;
   text-align: inherit;
 }
 
 .list-group-item-action:hover, .list-group-item-action:focus {
-  color: #495057;
+  color: #535353;
   text-decoration: none;
   background-color: #f8f9fa;
 }
 
 .list-group-item-action:active {
-  color: #212529;
+  color: #757575;
   background-color: #e9ecef;
 }
 
@@ -5621,7 +5621,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5734,7 +5734,7 @@ button.close {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5885,7 +5885,7 @@ button.close {
   padding: 0.5rem 0.75rem;
   margin-bottom: 0;
   font-size: 1rem;
-  color: inherit;
+  color: #535353;
   background-color: #f7f7f7;
   border-bottom: 1px solid #ebebeb;
   border-top-left-radius: calc(0.3rem - 1px);
@@ -5898,7 +5898,7 @@ button.close {
 
 .popover-body {
   padding: 0.5rem 0.75rem;
-  color: #212529;
+  color: #757575;
 }
 
 .carousel {
@@ -12072,6 +12072,25 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 /*---------------------------------
+Reset Deafault CSS
+---------------------------------*/
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  margin: 0;
+}
+
+/*---------------------------------
 WordPress needed CSS
 ---------------------------------*/
 .screen-reader-text {
@@ -12123,21 +12142,44 @@ WordPress needed CSS
   margin-right: auto;
 }
 
-/*---------------------------------
-Reset Deafault CSS
----------------------------------*/
-html {
-  font-size: 14px;
+.navbar {
+  padding: 0;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
+.navbar-nav li {
+  margin: 0 15px;
 }
 
-ul {
-  list-style: none;
+.navbar-nav li:last-child {
+  margin-right: 0;
 }
 
-p {
+.navbar-nav a {
+  color: #383838;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+.navbar-brand {
   margin: 0;
+  padding: 0;
 }
+
+.navbar-nav .current-menu-item a,
+.navbar-nav a:hover {
+  color: #e54c2a;
+  text-decoration: none;
+}
+
+/*---------------------------------
+Home Page
+---------------------------------*/
+/*---------------------------------
+Responsive
+---------------------------------*/
+/* Small Desktop End */
+/* Tablet End */
+/* Mobile End */
+/* Small Mobile End */

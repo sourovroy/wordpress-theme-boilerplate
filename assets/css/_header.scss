@@ -1,0 +1,25 @@
+.navbar{
+	padding: 0;
+}
+.navbar-nav li{
+	margin: 0 15px;
+}
+.navbar-nav li:last-child{
+	margin-right: 0;
+}
+.navbar-nav a{
+	color: #383838;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-family: $font-Raleway;
+	font-weight: 700;
+}
+.navbar-brand{
+	margin: 0;
+	padding: 0;
+}
+.navbar-nav .current-menu-item a,
+.navbar-nav a:hover{
+	color: #e54c2a;
+	text-decoration: none;
+}

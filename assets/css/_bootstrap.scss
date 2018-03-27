@@ -1,3 +1,20 @@
+$font-Lato: 'Lato', sans-serif;
+$font-Raleway: 'Raleway', sans-serif;
+$font-Vibes: 'Great Vibes', cursive;
+$font-family-base: $font-Lato;
+$font-family-sans-serif: $font-Lato;
+$font-family-monospace: $font-Lato;
+$headings-font-family: $font-Raleway;
+$headings-font-weight: 700;
+$headings-margin-bottom: 0;
+$body-color: #757575;
+$gray-700: #535353;
+$gray-400: $body-color;
+$dark-bg: #f1f1f1;
+$section-padding: 80px 0;
+$red-color: #e54c2a;
+$headings-color: $gray-700;
+
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 

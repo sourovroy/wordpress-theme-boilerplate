@@ -1,6 +1,17 @@
 @import 'bootstrap';
 
-@import 'wp_reset';
-
 @import 'reset';
 
+@import 'header';
+
+@import 'footer';
+
+/*---------------------------------
+Home Page
+---------------------------------*/
+@import 'home/slider';
+
+/*---------------------------------
+Responsive
+---------------------------------*/
+@import '_responsive';
