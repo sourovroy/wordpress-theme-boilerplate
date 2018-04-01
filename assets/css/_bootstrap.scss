@@ -1,19 +1,31 @@
-$font-Lato: 'Lato', sans-serif;
-$font-Raleway: 'Raleway', sans-serif;
-$font-Vibes: 'Great Vibes', cursive;
-$font-family-base: $font-Lato;
-$font-family-sans-serif: $font-Lato;
-$font-family-monospace: $font-Lato;
-$headings-font-family: $font-Raleway;
-$headings-font-weight: 700;
+$font-Asap: 'Asap', sans-serif;;
+$font-Nunito: 'Nunito', sans-serif;
+$font-family-base: $font-Asap;
+$font-family-sans-serif: $font-Asap;
+$font-family-monospace: $font-Asap;
+$headings-font-family: $font-Asap;
+$headings-font-weight: 600;
 $headings-margin-bottom: 0;
-$body-color: #757575;
-$gray-700: #535353;
-$gray-400: $body-color;
-$dark-bg: #f1f1f1;
+$body-color: #4c4c4c;
+$gray-700: #e1e3e5;
+$gray-400: #f6f6f6;
 $section-padding: 80px 0;
-$red-color: #e54c2a;
-$headings-color: $gray-700;
+$headings-color: #679aed;
+$blue-color: $headings-color;
+$dark-text-color: #565656;
+
+// Modify default bootstrap input
+$input-color: #9f9f9f;
+$input-placeholder-color: $input-color;
+$input-border-width: 0;
+$input-bg: #ffffff;
+$input-padding-y: 10px;
+$input-padding-x: 25px;
+$input-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+$input-focus-box-shadow: $input-box-shadow;
+$input-border-radius: 0;
+$form-group-margin-bottom: 20px;
+
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
