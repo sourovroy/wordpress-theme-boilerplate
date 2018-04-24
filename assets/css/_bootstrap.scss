@@ -1,8 +1,6 @@
 $font-Roboto: 'Roboto', sans-serif;
-$font-family-base: $font-Roboto;
-$font-family-sans-serif: $font-family-base;
-$font-family-monospace: $font-family-base;
-$headings-font-family: $font-family-base;
+$font-family-sans-serif: $font-Roboto;
+$headings-font-family: $font-family-sans-serif;
 $headings-font-weight: 600;
 $headings-margin-bottom: 0;
 $body-color: #4c4c4c;
